@@ -36,14 +36,15 @@ a {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
 }
 .menu-item {
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   color: #4a4a4a;
   font-size: 16px;
+}
+.menu2 {
+  margin-left: 20px;
 }
 
 /* Header tablet queries */
@@ -83,3 +84,9 @@ a {
   font-size: 30px;
 }
 /* Main tablet queries*/
+
+@media all and (min-width: 768px) {
+  .title {
+    font-size: 40px;
+  }
+}
