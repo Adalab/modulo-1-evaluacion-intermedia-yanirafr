@@ -22,22 +22,46 @@ a {
   align-items: center;
   position: fixed;
 }
+/* Header Logo */
+
 .image {
   width: 155px;
   margin: 10px 0 10px 0;
 }
+
+/* Header Menu */
+
 .header-menu {
   width: 155px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 .menu-item {
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   color: #4a4a4a;
   font-size: 16px;
+}
+
+/* Header tablet queries */
+
+@media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .image {
+    margin: 20px 0 20px 30px;
+  }
+  .menu {
+    margin-right: 30px;
+  }
+  .menu-item {
+    margin-left: 20px;
+  }
 }
 
 /* Main */
@@ -58,3 +82,4 @@ a {
   color: #ffffff;
   font-size: 30px;
 }
+/* Main tablet queries*/
