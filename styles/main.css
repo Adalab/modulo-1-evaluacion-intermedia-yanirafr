@@ -30,11 +30,14 @@ a {
 
 /* Header Menu */
 
-.header-menu {
+.menu {
   width: 155px;
+}
+.header-menu {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .menu-item {
   font-family: "Rubik", sans-serif;
@@ -42,7 +45,6 @@ a {
   color: #4a4a4a;
   font-size: 16px;
 }
-
 /* Header tablet queries */
 
 @media all and (min-width: 768px) {
@@ -53,8 +55,10 @@ a {
   .image {
     margin: 20px 0 20px 30px;
   }
-  .header-menu {
+  .menu {
     margin-right: 30px;
+  }
+  .header-menu {
     margin-bottom: 0;
   }
   .menu-item {
